@@ -1,11 +1,11 @@
-package sample.cafekiosk.spring.domain.product.api.controller.product;
+package sample.cafekiosk.spring.api.controller.product;
 
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import sample.cafekiosk.spring.domain.product.api.service.product.ProductService;
-import sample.cafekiosk.spring.domain.product.api.service.product.response.ProductResponse;
+import sample.cafekiosk.spring.api.service.product.ProductService;
+import sample.cafekiosk.spring.api.service.product.response.ProductResponse;
 
 @RequiredArgsConstructor
 @RestController
